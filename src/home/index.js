@@ -8,9 +8,11 @@ export default function Home() {
       <Nav>
         <div className='logo' >Logo</div>
         <ul>
-          <li>op1</li>
-          <li>op2</li>
-          <li>op3</li>
+          <li>
+            <a href='/taca'>Chicara</a>
+          </li>
+          <li>Taça</li>
+          <li>Copo de plastico</li>
         </ul>
       </Nav>
       <Header></Header>

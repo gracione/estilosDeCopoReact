@@ -15,11 +15,13 @@ export const Nav = styled.div`
     height:10vh;
     border-radius:5px;
     background:#483D8B;
+    color:white;
 
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding:30px;
+    font-weight: bold;
 
     ul{
         display:flex;
@@ -28,6 +30,10 @@ export const Nav = styled.div`
     li{
         margin-left:30px;
         display:block;
+    }
+    a{
+        color: white;
+        text-decoration: none;
     }
 `;
 

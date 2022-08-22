@@ -2,10 +2,10 @@ import React, { useState,useEffect } from 'react';
 
 import './styles.css';
 
-export default function Logon() {
+export default function Taca() {
   return (
     <>
-    {user?.quote}
+    taca
     </>
   );
 }
