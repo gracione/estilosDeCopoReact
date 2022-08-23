@@ -1,12 +1,11 @@
 import React, { useState,useEffect } from 'react';
-import api from '../services/api';
-
 import './styles.ts';
+import logo from './../copos/ch-2.jpg';
 
 export default function Chicara() {
   return (
     <>
-    <p>111</p>
+        <img src={logo} className="App-logo" alt="logo" />  
     </>
   );
 }
