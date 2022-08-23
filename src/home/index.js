@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Nav, Header, Footer } from './styles';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Taca from '../taca/index.js';
+import Chicara from '../chicara/index.js';
 import './styles.ts';
 
 export default function Home() {
@@ -9,13 +12,22 @@ export default function Home() {
         <div className='logo' >Logo</div>
         <ul>
           <li>
-            <a href='/taca'>Chicara</a>
+            <a href='/chicara'>Chicara</a>
           </li>
-          <li>Taça</li>
+          <li>
+            <a href='/taca'>Taça</a>
+            </li>
           <li>Copo de plastico</li>
         </ul>
       </Nav>
-      <Header></Header>
+      <Header>
+        <BrowserRouter>
+          <Routes>
+          <Route path="/taca" element={<Taca />} />
+          <Route path="/chicara" element={<Chicara />} />
+          </Routes>
+        </BrowserRouter>
+      </Header>
       <Footer></Footer>
     </Container>
   );

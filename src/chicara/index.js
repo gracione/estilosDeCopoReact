@@ -1,22 +1,12 @@
 import React, { useState,useEffect } from 'react';
 import api from '../services/api';
 
-import './styles.css';
+import './styles.ts';
 
-export default function Logon() {
-  const [user, setUser] = useState();
-
-  useEffect(() => {
-    api
-      .get()
-      .then((response) => setUser(response.data))
-      .catch((err) => {
-        console.error("ops! ocorreu um erro" + err);
-      });
-  }, []);
+export default function Chicara() {
   return (
     <>
-    {user?.quote}
+    <p>111</p>
     </>
   );
 }
