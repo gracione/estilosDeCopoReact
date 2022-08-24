@@ -7,7 +7,7 @@ export const Container = styled.div`
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:20px;
+    padding:5px;
     `;
 
 export const Nav = styled.div`
@@ -39,15 +39,22 @@ export const Nav = styled.div`
 
 export const Header = styled.div`
     width:100%;
-    height:65vh;
+    height:75vh;
 
     background:pink;
 `;
 
 export const Footer = styled.div`
-width:100%;
-height:10vh;
+    color:white;
+    width:100%;
+    height:10vh;
 
-background:blue;
-
+    background:blue;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        display:flex;
+        flex-direction: column;
+    }
     `;

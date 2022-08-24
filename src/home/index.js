@@ -28,7 +28,20 @@ export default function Home() {
           </Routes>
         </BrowserRouter>
       </Header>
-      <Footer></Footer>
+      <Footer>
+      <ul>
+          <li>Contato: 64 9 9999 8888</li>
+          <li>Email: email@mail.com</li>
+        </ul>
+        <ul>
+          <li>Cidade: Acreúna</li>
+          <li>Estado: Goias</li>
+        </ul>
+        <ul>
+          <li>Rua: q33</li>
+          <li>Bairro: novo lar</li>
+        </ul>
+      </Footer>
     </Container>
   );
 }
