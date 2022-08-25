@@ -1,11 +1,24 @@
-import React, { useState,useEffect } from 'react';
-import './styles.ts';
-import logo from './../copos/ch-2.jpg';
+import { Copo,Produtos } from './styles';
 
 export default function Chicara() {
   return (
     <>
-        <img src={logo} className="App-logo" alt="logo" />  
+      <Produtos>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+        <Copo></Copo>
+      </Produtos>
     </>
   );
 }

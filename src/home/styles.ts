@@ -16,12 +16,12 @@ export const Nav = styled.div`
     border-radius:5px;
     background:#483D8B;
     color:white;
+    font-weight: bold;
+    padding:15px;
 
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:30px;
-    font-weight: bold;
 
     ul{
         display:flex;
@@ -35,13 +35,20 @@ export const Nav = styled.div`
         color: white;
         text-decoration: none;
     }
+    img{
+        width:10vh;
+    }
 `;
 
 export const Header = styled.div`
     width:100%;
     height:75vh;
-
     background:pink;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 `;
 
 export const Footer = styled.div`
